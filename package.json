@@ -2,7 +2,7 @@
   "name": "@unknown-bone/unknown-groupme",
   "version": "1.0.1-alpha",
   "main": "index",
-  "description": "A Node Module for interacting with the GroupMe API. Supports both querying the Stateless API and receiving Websocket-based push messages, and provides a CLI.",
+  "description": "Custom fork of groupme library by njoubert, made for the unknown bone bot",
   "keywords": [
     "groupme",
     "api",
@@ -12,13 +12,10 @@
     "push",
     "cli"
   ],
-  "author": "Niels Joubert <njoubert@gmail.com> (http://njoubert.com/)",
+  "author": "Matt G",
   "repository": {
     "type": "git",
-    "url": "http://github.com/njoubert/node-groupme.git"
-  },
-  "bugs": {
-    "url": "https://github.com/njoubert/node-groupme/issues"
+    "url": "https://github.com/magleaso/unknown-bone-groupme.git"
   },
   "directories": {
     "lib": "./lib",
@@ -34,10 +31,5 @@
     "websocket": "1.0.x"
   },
   "devDependencies": {},
-  "license": [
-    {
-      "type": "zlib",
-      "url": "http://github.com/njoubert/node-groupme/blob/master/LICENSE"
-    }
-  ]
+  "license": "zlib"
 }
