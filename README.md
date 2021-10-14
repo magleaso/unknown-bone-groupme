@@ -5,7 +5,6 @@ Fork of [GroupMe node module](https://www.npmjs.com/package/groupme) by njoubert
 
 ## CHANGES
 
-- Change constants for groupme endpoints to properly utilize wss and TLS.
 - Add support for running in debug mode with fiddler
 - Post messages with JSONified response body, not query stringified form
 
